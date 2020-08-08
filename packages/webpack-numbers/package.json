@@ -1,0 +1,24 @@
+{
+  "name": "webpack-numbers",
+  "version": "1.0.0",
+  "main": "dist/bundle-back.js",
+  "files": [
+    "dist"
+  ],
+  "module": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@types/webpack": "^4.41.21",
+    "webpack": "^4.44.1",
+    "webpack-bundle-analyzer": "^3.8.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-merge": "^5.1.1",
+    "webpack-node-externals": "^2.5.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.19"
+  }
+}

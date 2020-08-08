@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.19/lodash.min.js"></script>
+    <script src="dist/webpack-numbers.js"></script>
+    <script src="dist/main.webpack-numbers.js"></script>
+  </head>
+  <body>
+    <script>
+      console.log(webpackNumbers.wordToNum('Five'));
+      // Property in the window object
+      console.log(window.webpackNumbers.wordToNum('Five'));
+    </script>
+  </body>
+</html>

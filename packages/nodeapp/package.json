@@ -1,0 +1,16 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.19",
+    "@org/typed-lib": "*"
+  },
+  "devDependencies": {
+    "webpack-merge": "^5.1.1"
+  }
+}

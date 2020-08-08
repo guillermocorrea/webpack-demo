@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'FiraCode';
+  src: url('./fonts/FiraCode/FiraCode-Regular.woff2') format('woff2'),
+    url('./fonts/FiraCode/FiraCode-Regular.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hello {
+  font-family: 'FiraCode';
+  font-size: 2rem;
+  color: red;
+  /* background: url('./icon.svg'); */
+}

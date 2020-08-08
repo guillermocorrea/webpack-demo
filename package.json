@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE",
+  "workspaces": [
+    "packages/*",
+    "projects/*"
+  ],
+  "scripts": {
+    "lerna": "lerna"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

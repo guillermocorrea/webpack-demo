@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "ES2020",
+    "target": "ES2015",
+    "jsx": "react",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "composite": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "lib": ["es2017", "DOM", "DOM.Iterable"],
+    "baseUrl": "./packages",
+    "outDir": "./",
+    "paths": {
+      "@org/*": ["./src/"]
+    }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"],
+  "references": [{ "path": "packages/typed-lib" }]
+}
